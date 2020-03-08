@@ -211,7 +211,7 @@ def get_args():
     parser.add_argument('--gpu', type=int, default=0)
     parser.add_argument('--save_path', type=str, default='results')
     parser.add_argument('--vector_cache', type=str, default=os.path.join(os.getcwd(), '.vector_cache'))
-    parser.add_argument('--word_vectors', type=str, default='glove.6B.300d.txt')
+    parser.add_argument('--word_vectors', type=str, default='glove.6B.300d')
     parser.add_argument('--resume_snapshot', type=str, default='')
     args = parser.parse_args()
     return args
